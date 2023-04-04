@@ -10,9 +10,9 @@ A bus factor greater than 1 would mean you have less dependence on specific peop
 # What are the reasons for the bus factor being one?
 You don't have resources.
 Resource is not interested.
-    May be s/he doesn't belive in your capability or providing quality work.
-    May be s/he is only interested in that project. Others have no interest in that work.
-    May be s/he is interested in rent seeking
+ 1. May be s/he doesn't belive in your capability or providing quality work.
+ 2. May be s/he is only interested in that project. Others have no interest in that work.
+ 3. May be s/he is interested in rent seeking
 
 # When do you find out the bus factor?
 Assume a key resource is on leave for more than a month. Most commonly, cron jobs are scheduled at the start or end of the month. If the job fails and we don't know how to recover, then we know we have a bus factor of 1.
